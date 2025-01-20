@@ -1,0 +1,48 @@
+.display{
+  margin: 30px 150px 0px;
+  color: #1E1E1E;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  
+}  
+.menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  
+}
+nav li a{
+  text-decoration: none;
+}
+.menu-btn{
+  margin-left: 220px;
+}
+.menu-title{
+  margin-right: 150px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.menu-1{
+  color: #FEA301;
+}
+.menu-2{
+  color: #01ACFD;
+}
+.menu-3{
+  color: #05D4DF;
+}
+.menu-4{
+  color: #5D58EF;
+}
+.menu-btn{
+  font-weight: 500;
+  font-size: 1rem;
+  background-color:#FEA301 ;
+  color: white;
+  border-radius: 12px;
+  padding: 8px 25px;
+  border: none;
+}
