@@ -1,6 +1,7 @@
 .display{
   margin: 30px 150px 0px;
-  color: #1E1E1E;
+  color: rgba(30, 30, 30, 1);
+  /* background-image: url(../assets/bg.png) 200px 0px 0px 0px; */
 }
 .navbar{
   display: flex;
@@ -71,4 +72,87 @@ nav li a{
 }
 .hero{
   /* margin-left: 80px; */
+}
+.title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 100px 0px;
+  
+}
+.main{
+  background-image: url(../assets/bg.png);
+  /* background-image: 0px auto; */
+}
+.main-1{
+  display: flex;
+  text-align: center;
+  gap: 70px;
+ 
+  
+}
+.box-1{
+  padding: 2px ;
+  background-color: #DEF5FF;
+  border-radius: 16px;
+  /* height: 400px;
+  width: 550px; */
+}
+.box-2{
+  padding: 2px ;
+  background-color: #FFF4DC;
+  border-radius: 16px;
+}
+.box-3{
+  padding: 2px ;
+  background-color: #F2E8FF;
+  border-radius: 16px;
+}
+.box-title{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.box-footer-1{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #64C8FF;
+}
+.box-footer-2{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #F0AA00;
+}
+.box-footer-3{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #8700FF;
+}
+.angle-icon{
+  display: flex;
+  margin: 70px 0px;
+  gap: 10px;
+  justify-content: center;
+}
+.angle-icon-1{
+  background-color: orange;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  padding: 15px 15px;
+  font-size: 1.5rem;
+}
+.angle-icon-2{
+  background-color: orange;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  padding: 15px 15px;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width:576px) {
+  .navbar, .menu, .banner, .main-1, .angle-icon {
+    flex-direction: column;
+  }
+  
 }
