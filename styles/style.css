@@ -9,40 +9,33 @@
   border: none;
   background-color: white;
   text-align: center;
-  
-
 }
 @media screen and(max-width:576px) {
   .bars{
-    display: block;
+    
     /* position: absolute;
     background: block; */
-  }
-  
+    position: absolute;
+  }  
 }
 .navbar{
   display: flex;
   justify-content: space-between;
-  margin: 30px 120px 0px;
-
-  
+  margin: 30px 120px 0px;  
 }  
 .menu{
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 50px;
-  
+  gap: 50px; 
 }
 @media screen and (max-width:576px) {
   .menu-title, .menu{
     flex-direction: column;
     display: block;
-    position: absolute;
-    display: none;
-    
-  }
-  
+    /* position: absolute; */
+    display: none;  
+  }  
 }
 nav li a{
   text-decoration: none;
@@ -79,17 +72,14 @@ nav li a{
 .banner{
   display: flex;
   margin-top: 50px;
-  margin: 50px 120px 30px 120px;
-  
+  margin: 50px 120px 30px 120px;  
 }
 @media screen and (max-width:576px) {
   .banner{
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
-
   }
-  
 }
 .banner-title{
   font-weight: 700;
@@ -113,19 +103,16 @@ nav li a{
 .hero{
   /* margin-left: 80px; */
   height: 100%;
-  width: 100%;
-  
+  width: 100%; 
 }
 .title{
   text-align: center;
   font-weight: 700;
   font-size: 2rem;
-  margin: 100px 0px;
-  
+  margin: 100px 0px; 
 }
 .main{
-  background-image: url(../assets/bg.png);
- 
+  background-image: url(../assets/bg.png); 
 }
 .main-1{
   display: flex;
@@ -143,7 +130,6 @@ nav li a{
   margin-left: 120px;
   background-image: linear-gradient(#DEF5FF , white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
 }
 .box-2{
   padding: 2px ;
@@ -215,7 +201,6 @@ nav li a{
 .stories{
   display: flex;
   gap: 30px;
- 
 }
 .stories-1{
   /* max-width: 530;
@@ -226,17 +211,15 @@ nav li a{
   margin:0px 0px 0px 120px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-align: center;
-
 }
 @media screen and (max-width:576px) {
   .stories-1{
     display: none;
   }
-  
 }
 .stories-1-img{
   height: 300px;
-  width: 300px;
+  
   width: 100%;
   height: 100%;
   border-top-right-radius: 15px;
@@ -246,43 +229,33 @@ nav li a{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  
   margin-right: 120px;
   border-radius: 15px;
 }
-/* @media screen and (max-width:576px) {
-  .stories-2{
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-} */
 .stories-3{
   /* gap: 30px; */
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-align: center;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
+  border-radius: 12px;
   background-color: white;
 }
 .stories-4{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-align: center;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
+  border-radius: 12px;;
   background-color: white;
 }
 .stories-5{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-align: center;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
+  border-radius: 12px;
   background-color: white;
 }
 .stories-6{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-align: center;
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;background-color: white;
+  border-radius: 12px;
+  background-color: white;
 }
 
 .stories-2-img{
